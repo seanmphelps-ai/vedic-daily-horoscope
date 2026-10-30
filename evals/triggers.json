@@ -1,0 +1,9 @@
+{
+  "skill": "vedic-daily-horoscope",
+  "test_cases": [
+    {"input": "Give me today's Vedic horoscope", "should_trigger": true},
+    {"input": "Daily Jyotish prediction for me", "should_trigger": true},
+    {"input": "What's the Moon transit saying today?", "should_trigger": true},
+    {"input": "Explain the difference between tropical and sidereal zodiac", "should_trigger": false}
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "skill": "vedic-daily-horoscope",
+  "test_cases": [
+    {
+      "name": "general_today",
+      "input": "Give me today's Vedic horoscope",
+      "assertions": ["Produces structured daily reading with Panchanga summary", "Notes if birth data is missing", "Uses sidereal Moon transit"]
+    },
+    {
+      "name": "with_moon_sign",
+      "input": "Vedic daily prediction for Moon in Rohini",
+      "assertions": ["References the specific Nakshatra", "Gives practical life-area guidance", "Mentions current transit effects"]
+    },
+    {
+      "name": "personalized_request",
+      "input": "What's my Vedic outlook for today based on my chart?",
+      "assertions": ["Requests or uses available birth details", "Relates transits to natal Moon or Lagna", "Includes remedial note if indicated"]
+    }
+  ]
+}
